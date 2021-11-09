@@ -1,0 +1,26 @@
+{
+  "name": "barbajs-feat-gsap-landing-page",
+  "version": "1.0.0",
+  "description": "Simple barbajs xperiment",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "live-server public",
+    "sass-dev": "sass --watch --update --style=expanded public",
+    "sass-prod": "sass --no-source-map --style=compressed public",
+    "dev": "yarn dev-server && yarn sass-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggluta/barbajs-feat-gsap-landing-page.git"
+  },
+  "author": "George Gabriel Luta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggluta/barbajs-feat-gsap-landing-page/issues"
+  },
+  "homepage": "https://github.com/ggluta/barbajs-feat-gsap-landing-page#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.43.4"
+  }
+}
